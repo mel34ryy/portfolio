@@ -97,6 +97,22 @@ const projects = [
     live: "https://w3ey-seven.vercel.app/",
     github: "https://github.com/mel34ryy/w3ey",
   },
+  {
+    num: "07",
+    category: "frontend",
+    title: "project 7",
+    description:
+      "An AI-powered resume analyzer that lets users upload their CV and match it against a job description, delivering ATS compatibility scores and actionable feedback.",
+    stack: [
+      { name: "Html 5" },
+      { name: "Tailwind" },
+      { name: "TypeScript" },
+      { name: "ReactJS" },
+    ],
+    image: "/assets/work/Resumind.png",
+    live: "https://ai-resume-analyzer-dusky-mu.vercel.app/",
+    github: "https://github.com/mel34ryy/ai-resume-analyzer",
+  },
 ];
 
 const Work = () => {
